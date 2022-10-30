@@ -19,9 +19,13 @@ body {
     background-color: blueviolet;
     grid-row: 2 / 3;
     display: grid;
-    justify-content: center;
+    text-align: center;
 
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 1fr;
+}
+
+.projects {
+    background-color: rgb(191, 147, 231);
 }
 
 .main {

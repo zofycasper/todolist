@@ -20,7 +20,7 @@ export default class Section {
     }
     update() {
         for (const element of this.elementList) {
-            console.log(element);
+            // console.log(element);
 
             this.section.appendChild(element);
         }
